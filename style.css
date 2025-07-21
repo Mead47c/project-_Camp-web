@@ -1,0 +1,118 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Segoe UI', sans-serif;
+background: #f1f5f9;
+color: #333;
+}
+
+
+.top-bar {
+background-color: #4e342e;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 15px 30px;
+align-items: center;
+}
+
+.branding {
+display: flex;
+align-items: center;
+}
+
+.site-logo {
+width: 45px;
+height: 45px;
+margin-right: 10px;
+border-radius: 8px;
+}
+
+.site-title {
+font-size: 1.5rem;
+}
+
+.menu {
+list-style: none;
+display: flex;
+gap: 25px;
+}
+
+.menu li a {
+color: white;
+text-decoration: none;
+font-weight: 500;
+}
+
+.menu li a:hover {
+text-decoration: underline;
+}
+
+
+.page-body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: calc(100vh - 80px);
+padding: 20px;
+}
+
+.signup-panel {
+background-color: white;
+padding: 35px 45px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+width: 400px;
+}
+
+.signup-panel h2 {
+text-align: center;
+margin-bottom: 25px;
+color: #111827;
+}
+
+.signup-form .form-row {
+margin-bottom: 15px;
+}
+
+.signup-form label {
+display: block;
+margin-bottom: 6px;
+font-weight: bold;
+}
+
+.signup-form input,
+.signup-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e342e; 
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #3e2723; 
+
+
+note {
+  color: #6d4c41; 
+  text-decoration: none;
+}
+}
